@@ -1,0 +1,29 @@
+.summary-pic {width:210px; height:125px;}
+.summary-profile-pic {
+    width:40px;
+    height:40px;
+}
+
+
+#rate{
+    padding-top: 20px;
+    margin: 10px 0 0 10px;
+    color: #FF9966;
+
+}
+
+#detail span{
+    margin: 0 0 2px 10px;
+}
+#detail p{
+    margin:10px 0 2px 0;
+}
+#detail h4{
+    margin: 2px 0 2px 0;
+    display: inline;
+}
+
+
+#addr{
+    margin: 20px 0 0 10px;
+}

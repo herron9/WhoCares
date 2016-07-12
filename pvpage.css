@@ -1,0 +1,221 @@
+dl,dt,dd,h5,p{
+    padding:0;
+    margin:0;
+    font-size:12pt;}
+dl{
+    height:auto;
+    display:block;
+    overflow:hidden;
+    margin:0 auto;
+
+}
+dt,dt a{
+    padding:1px 0 1px 5px;
+    width:100%;
+    height:auto;
+    display:block;
+    font-weight: bold;
+    color:#333;
+    text-decoration: none;
+    background-color: #f7d9ca;
+}
+dd,dd a {
+    padding: 1px 0 1px 10px;
+    width: 100%;
+    height: auto;
+    display: block;
+    color: #333;
+    text-decoration: none;
+    background-color: #fff5f0;
+}
+
+#fixinfo{
+    position: relative;
+    width: 500px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    background-color: #f7d9ca;
+    height: 35px;
+    line-height: 35px;
+}
+
+#fixinfox{
+    position: relative;
+    width: 500px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    background-color: #f7d9ca;
+    height: 35px;
+    line-height: 35px;
+}
+
+#fixinfox:hover{
+    background-color: #f7ba9f;
+}
+
+.tg  {border-collapse:collapse;
+    border-spacing:0;
+    margin-left: 10px;
+    width: 500px;
+}
+.tg td{
+
+    font-size:14px;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:0;
+    overflow:hidden;
+    word-break:normal;
+}
+
+.tg .tg-2vcv{font-weight:bold;font-size:16px;background-color:#f7d9ca;color:#000000;vertical-align:top}
+.tg .tg-tpy8{background-color:#f7d9ca;color:#000000;vertical-align:top}
+.tg .tg-wuq2{font-weight:bold;font-size:16px;background-color:#fff5f0;color:#000000;vertical-align:top}
+.tg .tg-npbf{background-color:#fff5f0;color:#000000;vertical-align:top}
+.tg .tg-ppkh{background-color:#f7d9ca;color:#000000;vertical-align:top}
+.tg .tg-yrv3{font-weight:bold;font-size:16px;background-color:#f9e2d6;color:#000000;vertical-align:top}
+.tg .tg-7x9q{background-color:#f9e2d6;color:#000000;vertical-align:top}
+
+.tg input {
+    padding: 0 5px 0 5px;
+    margin: 0 5px 0 5px;
+    font-size: 14px;
+    width: 300px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid transparent;
+    outline: none;
+    /*border: none;*/
+}
+.update{
+    padding: 1px 1px 1px 1px;
+    margin:10px 0 10px 150px;
+    line-height: 30px;
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    border-radius:5px;
+    border-color: transparent;
+    background-color: #FF9966;
+    text-align: center;
+    color: white;
+    outline: none;
+}
+.update:hover{
+    transition-duration: 0.4s;
+    background-color:#FF5B27;
+}
+
+#inner{
+    width: auto;
+    margin-left: 520px;
+    margin-right: 10px;
+}
+/*#order{*/
+    /*position: absolute;*/
+    /*margin-top: 10px;*/
+    /*margin-left: 10px;*/
+    /*width: auto;*/
+    /*margin-bottom: 10px;*/
+    /*font-size: 20px;*/
+    /*font-weight: bold;*/
+    /*background-color: #f7d9ca;*/
+    /*height: 35px;*/
+    /*line-height: 35px;*/
+/*}*/
+#rspan{
+    position: absolute;
+    left: 27%;
+}
+
+#menulist{
+    margin-top: 10px;
+}
+
+#dlstyle{
+    margin-top: 0;
+}
+
+#i2{
+    position: absolute;
+    left: 60%;
+    /*right: 30%;*/
+}
+
+#i3{
+    padding-left: 15px;
+    position: absolute;
+    left: 78%;
+    /*right: 10%;*/
+}
+
+#i4{
+    position: absolute;
+    left: 90%;
+    right: 0;
+}
+#i3 input,#i5 input{
+    width: 30px;
+    background:transparent;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    font-size: 16px;
+    padding: 0 1px 0 1px;
+    margin: -4px 0 0 0;
+    text-align: center;
+}
+.po{
+    /*padding-left: 15px;*/
+    position: absolute;
+    margin-left: 5px;
+    left: 79%;
+    padding: 1px 5px 1px 5px;
+    /*margin:10px 0 10px 150px;*/
+    /*line-height: 20px;*/
+    height: 15px;
+    width: 50px;
+    font-size: 14px;
+    border-radius:5px;
+    border-color: transparent;
+    background-color: #FF9966;
+    text-align: center;
+    color: white;
+    outline: none;
+}
+.po:hover{
+    transition-duration: 0.4s;
+    background-color:#FF5B27;
+}
+
+dt a:hover{
+    background-color: #f7ba9f;
+}
+dd:hover{
+    background-color: #ffe6d7;
+}
+
+#i5,#i6,#i7,#i8,#i9{font-weight: normal}
+#i5{
+    position: absolute;
+    left: 60%;
+}
+#i6{
+    position: absolute;
+    left: 90%;
+}
+#i7{
+    position: absolute;
+    left: 75%;
+}
+#i8{
+    position: absolute;
+    left: 87%;
+}
+#i9 {
+    position: absolute;
+    left: 90%;
+}
+

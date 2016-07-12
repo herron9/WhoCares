@@ -1,0 +1,43 @@
+#sort{
+    color: #FF9966;
+    height: 35px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: -10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed black;
+}
+#sortby{
+    font-weight: bold;
+    display: inline;
+    float: left;
+    margin-top: 3px;
+}
+.ff-container{
+    margin: 0 0 0 20px;
+}
+.ff-container label {
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 0 0 10px;
+    color: #ffffff;
+    background: #ff9966;
+    float: left;
+    border-radius: 5px;
+}
+
+.ff-container input.ff-selector-type-all:checked ~ label.ff-label-type-all,
+.ff-container input.ff-selector-type-1:checked ~ label.ff-label-type-1,
+.ff-container input.ff-selector-type-2:checked ~ label.ff-label-type-2,
+.ff-container input.ff-selector-type-3:checked ~ label.ff-label-type-3{
+    background: #ff5b27;
+}
+.ff-container input{
+    display: none;
+}
+.ff-container a:link{text-decoration: none; color:white;font-weight:normal;}
+.ff-container a:visited{text-decoration: none;color:white;font-weight:normal;}
+.ff-container a:hover{text-decoration: none;color:white;font-weight:normal;position:relative;top:0;left:0;}
+.ff-container a:active{text-decoration: none;color:white;font-weight:normal;}

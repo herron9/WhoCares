@@ -1,0 +1,183 @@
+/*@import url(http://fonts.googleapis.com/css?family=Roboto:500,700);*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body{ background-color: #FF9966;}
+html {
+    min-height: 100%;
+}
+
+body {
+    margin: 20px;
+    color: black;
+    /*background: linear-gradient(-20deg, #d0b782 20%, #a0cecf 80%);*/
+    /*font: 500 1.2em/1.2 'Roboto', sans-serif; */
+}
+
+#right{
+    height: 400px;
+    height:auto!important;
+    float:right;
+    margin:0 0 0 -200px;
+    width:100%;
+    /*background-color: #ff99;*/
+}
+
+h1 {
+    margin: 5px 5px 10px 5px;
+    padding: 10px 10px 0 10px;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.items {
+    display: flex; /*flexbox!*/
+    flex-direction: column;
+    padding: 0 10px 0  10px;
+    counter-reset: s-items uns-items;
+}
+
+.items h2 {
+    position: relative;
+    margin: 0;
+    padding: 5px 0;
+    font-size: 1.2em;
+}
+
+.items h2::before {
+    content: '';
+    display: block;
+    position: absolute;
+    /*top: 10px;*/
+    bottom: 10px;
+    left: -20px;
+    width: 5px;
+    /*background-color: #435757;*/
+}
+
+.items h2::after {
+    display: block;
+    float: right;
+    font-weight: normal;
+}
+
+.selected {
+    order: 1;
+}
+
+.selected::after {
+    content: ' (' counter(s-items) ')';
+}
+
+.unselected {
+    order: 3;
+}
+
+.unselected::after {
+    content: ' (' counter(uns-items) ')';
+}
+
+/* hide inputs offscreen, but at the same vertical positions as the correpsonding labels, so that tabbing scrolls the viewport as expected */
+.items input {
+    display: block;
+    height: 40px;
+    margin: 0 0 -40px -9999px;
+    order: 4;
+    outline: none;
+    counter-increment: uns-items;
+}
+
+.items input:checked {
+    order: 2;
+    counter-increment: s-items;
+}
+
+.items label {
+    display: block;
+    position: relative;
+    padding: 8px 0 8px 45px;
+    border-top: 1px dashed #fff;
+    order: 4;
+    cursor: pointer;
+    animation: undone .5s;
+}
+
+.items label::before {
+    content: '\f096';
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    font: 1.5em 'FontAwesome';
+}
+
+.items label:hover, input:focus + label {
+    /*background-color: #FFCCCC;*/
+    /*background-color: rgba(255, 255, 255, .2);*/
+}
+
+.items input:checked + label {
+    order: 2;
+    animation: done .5s;
+}
+
+.items input:checked + label::before {
+    content: '\f046';
+}
+
+#Sstates{
+    margin-left: 20px;
+    margin-right: 10px;
+    list-style-type:none;
+}
+#Scity,#Saddr{
+    padding-top: 0;
+    margin: 8px 10px 10px 0;
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border-radius:5px;
+    border: 2px solid #FF9966;
+    font-size: 20px;
+}
+button.btnx{
+    margin: -2px 0 0 0;
+    padding: 0 0 0 0;
+    height: 30px;
+    width: 120px;
+    font-size: 20px;
+    border-radius:8px;
+    border-color: transparent;
+    background-color: white;
+    text-align: center;
+    color: #FF9966;
+    outline: none;
+}
+button.btnx:hover{
+    transition-duration: 0.4s;
+    /*background-color: #ff5b27;*/
+    color: #FF5B27;
+}
+
+
+#cover{
+    border-bottom: 1px solid #666;
+    width: 1000px;
+    text-align: left;
+}
+
+#total{
+    color: #ff9966;margin: 5px 10px 0 10px; font-weight: bold;
+}
+
+#left{background-color: #FF9966;
+      float:left;width:200px;height: 100%; color: white;}
+
+#searchbar{
+    background-color: #FF9966;
+}
+a:link {color: #ff9966;text-decoration: none;font-weight:bold;}
+a:visited {color: #ff9966;text-decoration: none;font-weight:bold;}
+a:hover {color: #ff5b27;position:relative;top:1px;left:1px;text-decoration:none;font-weight:bold;}
+a:active {color: #ff4916;text-decoration:none;font-weight:bold;}

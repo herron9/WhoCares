@@ -1,0 +1,187 @@
+
+dl,dt,dd,h5,p{
+    padding:0;
+    margin:0;
+    font-size:10pt;}
+dl{
+    height:auto;
+    display:block;
+    overflow:hidden;
+    margin:0 auto;
+    font-size:10pt;
+}
+dt,dt a{
+    width:100%;
+    height:auto;
+    display:block;
+    font-weight: bold;
+    color:#333;
+    text-decoration: none;
+}
+dd,dd a{
+    width:100%;
+    height:auto;
+    display:block;
+    color:#333;
+    text-decoration: none;
+}
+dt a:hover{
+    background-color: #ff5b27;
+}
+/*dd a:hover{*/
+    /*background-color: #ff9e58;*/
+    /*/!*color: #666666;*!/*/
+/*}*/
+
+#intro{
+    margin: 10px 0 -10px 10px;
+}
+#name{
+    font-size: 60px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: #FF9966;
+}
+#opendist {
+    font-size: 0px;
+    margin-left: 10px;
+}
+#an{
+    font-size: 20px;
+}
+#menu,#BS{
+    font-size: 30px;
+    font-weight: bold;
+    margin:0 0 0 10px;
+}
+
+#menulist{
+    width: auto;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#dlstyle dt{
+    line-height:40px;
+    text-indent: 5px;
+    background-color:#FF9966;
+    height: 40px;
+    font-size: 20px;
+}
+
+#dlstyle dd{
+    /*padding-left: 10px;*/
+    text-indent: 5px;
+    background-color: #ffbf90;
+    font-size: 18px;
+    /*padding: 2px 0 2px 0;*/
+}
+
+#i1{display: inline;}
+#labelx{
+    display:inline;
+    /*display: block;*/
+    /*display:block;*/
+    width: 1400px;
+    /*padding-left: 2px;*/
+}
+
+#i1{
+    width: 700px;
+    /*height: auto;*/
+    display:inline-block;
+    word-wrap: break-word;
+}
+#i2{
+    position: absolute;
+    left: 60%;
+    /*right: 50%;*/
+}
+
+#i3{
+    position: absolute;
+    left: 70%;
+    /*right: 30%;*/
+}
+#i4{
+    float: right ;
+    padding-right: 50px;
+
+}
+#i4 input{
+    width: 40px;
+    /*height:20px;*/
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: transparent;
+}
+
+#atc{
+    width: 900px;
+    /*background-color: #FF9966;*/
+}
+
+#item{padding: 3px 0 3px 0;}
+
+#item:hover{
+
+    background-color: #ffac61;
+}
+
+#atc button{
+    padding: 1px 1px 1px 1px;
+    margin:10px 0 10px 400px;
+    height: 30px;
+    width: 400px;
+    font-size: 20px;
+    border-radius:5px;
+    border-color: transparent;
+    background-color: #FF9966;
+    text-align: center;
+    color: white;
+    outline: none;
+    vertical-align: middle;
+}
+#atc button:hover{
+    transition-duration: 0.4s;
+    background-color:#FF5B27;
+}
+/*label>input[type=checkbox] {*/
+    /*position: relative;*/
+    /*/!*display:none;*!/*/
+    /*/!*width: 0;*!/*/
+/*}*/
+
+/*/!* to hide the checkbox itself *!/*/
+/*label>input[type=checkbox]:before {*/
+    /*/!*width: 20px;*!/*/
+    /*/!*margin: -20px 0 0 -2px;*!/*/
+    /*/!*padding: -5px 0 0 -1px;*!/*/
+    /*/!*top: -10px;*!/*/
+
+    /*/!*position: absolute;*!/*/
+    /*/!*background-position: center;*!/*/
+    /*background-color: #FF9966;*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*/!*font-family: FontAwesome;*!/*/
+    /*/!*display: inline-block;*!/*/
+    /*content:"\f096";*/
+    /*/!*letter-spacing: 10px;*!/*/
+    /*font: 20px 'FontAwesome';*/
+
+/*}*/
+/*/!* space between checkbox and label *!/*/
+/*label>input[type=checkbox]:checked:before {*/
+    /*/!*position: absolute;*!/*/
+    /*/!*background-position: center;*!/*/
+    /*/!*background-color: #FFFFFF;*!/*/
+    /*/!*height: 100%;*!/*/
+    /*/!*width: 100%;*!/*/
+    /*font: 20px 'FontAwesome';*/
+    /*/!*display: inline-block;*!/*/
+    /*content:"\f046";*/
+    /*/!*letter-spacing: 5px;*!/*/
+/*}*/
+ /*/!*allow space for check mark*!/*/

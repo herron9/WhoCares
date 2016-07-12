@@ -1,0 +1,122 @@
+#fixinfo{
+    font-size: 25px;
+    position: relative;
+    /*width: 100%;*/
+    font-weight: bold;
+    margin-left: 20px;
+    background-color: #f7d9ca;
+    height: 35px;
+    line-height: 35px;
+    width: 1240px;
+}
+
+
+.tg  {
+    border-collapse:collapse;
+    border-spacing:0;
+    margin-left: 20px;
+    /*width: 100%;*/
+    padding-left: 10px;
+    width: 1240px;
+}
+.tg td{
+
+    font-size:14px;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:0;
+    overflow:hidden;
+    word-break:normal;
+}
+
+.tg .tg-rb70{font-weight:bold;background-color:#f7d9ca;color:#322d2d;vertical-align:top}
+.tg .tg-mme0{font-weight:bold;font-size:14px;background-color:#f7d9ca;color:#322d2d;vertical-align:top}
+.tg .tg-71kt{
+    font-weight:bold;
+    background-color:#f7d9ca;
+    color:#322d2d;
+    /*text-align:right;*/
+    vertical-align:top
+}
+.tg .tg-175l{
+    background-color:#fff5f0;
+    font-size:14px;
+    color:#322d2d;
+    /*vertical-align:top;*/
+    vertical-align: middle;
+}
+
+
+.tg input {
+    padding: 0 5px 0 5px;
+    margin: 0 5px 0 5px;
+    font-size: 14px;
+    width: 300px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid transparent;
+    outline: none;
+}
+.update{
+    padding: 1px 1px 1px 1px;
+    margin:10px 0 10px 150px;
+    /*margin: auto;*/
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    border-radius:5px;
+    border-color: transparent;
+    background-color: #FF9966;
+    text-align: center;
+    color: white;
+    outline: none;
+}
+.update:hover{
+    transition-duration: 0.4s;
+    background-color:#FF5B27;
+}
+
+#inner{
+    width: auto;
+    height: auto;
+    margin-left: 510px;
+    background: #FF6666;
+}
+#order{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 500px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+    background-color: #f7d9ca;
+    height: 35px;
+    line-height: 35px;
+}
+
+#ep{
+    padding: 2px 40px 4px 40px;
+    margin:10px 0 10px 50px;
+    /*margin: auto;*/
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    border-radius:5px;
+    border-color: transparent;
+    background-color: #FF9966;
+    text-align: center;
+    color: white;
+    outline: none;
+}
+
+#ep:hover{
+    transition-duration: 0.4s;
+    background-color:#FF5B27;
+}
+
+a:link {color: white;text-decoration: none;}
+a:visited {color: white;text-decoration: none;}
+a:hover {color: white;text-decoration:none;}
+a:active {color: white;text-decoration:none;}
